@@ -1,23 +1,36 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+% Document Style
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 
-\title{EDT Project}
-\author{
-    Preston Whiteman, Maria Lytvyn-Johannesdottir, Catherine Murray, \\
-    Corey Firkins, Juljan Koleci and Ahmed Wahid \\
-    \textit{City of Stoke-on-Trent Sixth Form College}
-}
+% Title Page
+\title{\textbf{Adjustable Support Cage for Windings}}
+\author{by Preston Whiteman, Maria Lytvyn-Johannesdottir, Catherine Murray, \\ Corey Firkins, Juljan Koleci, and Ahmed Wahid\and \\ \textit{City of Stoke-on-Trent Sixth Form College}}
 \date{December 2023}
+
+% References
+\usepackage[backend=biber, style=phys]{biblatex}
+\addbibresource{references.bib}
+
+% Images
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{graphicx}
+\graphicspath{ {../Assets/} }
+
+% Other Packages
+\usepackage{todonotes}
+\usepackage{gensymb}
+\usepackage{mathptmx}
+\usepackage{float}
+\usepackage{glossaries}
+
+% Glossary - do later
+\makeglossaries
 
 \begin{document}
 \maketitle
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.5\linewidth]{logos.png}
-    \label{fig:enter-label}
-\end{figure}
-
-\section{Introduction}
-
+\begin{center}
+    \includegraphics[width = 6cm, height = 1.5cm]{Assets/logos.png}
+\end{center}
+\pagebreak
 \end{document}
