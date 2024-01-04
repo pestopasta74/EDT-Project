@@ -3,7 +3,7 @@
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 
 % Title Page
-\title{\textbf{Adjustable Support Cage for Windings}}
+\title{\textbf{Adjustable Support Cage for Copper Windings}}
 \author{by Preston Whiteman, Maria Lytvyn-Johannesdottir, Catherine Murray, \\ Corey Firkins, Juljan Koleci, and Ahmed Wahid\and \\ \textit{City of Stoke-on-Trent Sixth Form College}}
 \date{December 2023}
 
@@ -24,13 +24,144 @@
 \usepackage{float}
 \usepackage{glossaries}
 
-% Glossary - do later
+% Glossary
 \makeglossaries
 
+\newglossaryentry{EDT}
+{
+  name=\textit{EDT Industrial Cadets Gold},
+  description={An industry led quality benchmark for outreach and education programmes to build pathways through education and employment}
+}
+
+\newglossaryentry{GE}
+{
+  name=\textit{GE Vernova Transformers},
+  description={A part of the company General Electric, operating in Stafford}
+}
+
+\newglossaryentry{gcal}{
+    name={Gcal},
+    description={A shorthand term for Google Calendar, a web-based calendar service provided by Google.}
+}
+
+\newglossaryentry{reality-composer}
+{
+  name=\textit{Reality Composer},
+  description={An application on iPad and iPhone for developing 3D Models typically for AR}
+}
+
+\newglossaryentry{AR}
+{
+  name=\textit{Augmented Reality},
+  description={A way to place objects into the real world using a device's camera and screen}
+}
+
+\newglossaryentry{iPad}
+{
+  name=\textit{Apple iPad},
+  description={A tablet computer developed by Apple which some of us made use of during our project}
+}
+
+\newglossaryentry{CAD}
+{
+  name=\textit{Computer Aided Design},
+  description={The use of a computer to help and to aid the design of 2D and 3D models, interfaces, logos, etc}
+}
+
+\newglossaryentry{gantt-chart}
+{
+  name=\textit{Gantt Chart},
+  description={A chart created by Henry Laurence Gantt, to plan out projects at a large scale}
+}
+
+\newglossaryentry{figma}
+{
+  name=\textit{Figma},
+  description={An online web application for doing 2D designs}
+}
+
+\newglossaryentry{LaTeX}
+{
+  name=\LaTeX,
+  description={A document preparation system used for the communication and publication of scientific documents}
+}
+
+\newglossaryentry{fischer-technik}
+{
+  name=\textit{Fischer Technik},
+  description={A plastic modelling set which we used to experiment with initial ideas}
+}
+
+
+
 \begin{document}
+
+
+% ████████╗██╗████████╗██╗░░░░░███████╗  ██████╗░░█████╗░░██████╗░███████╗ %
+% ╚══██╔══╝██║╚══██╔══╝██║░░░░░██╔════╝  ██╔══██╗██╔══██╗██╔════╝░██╔════╝ %
+% ░░░██║░░░██║░░░██║░░░██║░░░░░█████╗░░  ██████╔╝███████║██║░░██╗░█████╗░░ %
+% ░░░██║░░░██║░░░██║░░░██║░░░░░██╔══╝░░  ██╔═══╝░██╔══██║██║░░╚██╗██╔══╝░░ %
+% ░░░██║░░░██║░░░██║░░░███████╗███████╗  ██║░░░░░██║░░██║╚██████╔╝███████╗ %
+% ░░░╚═╝░░░╚═╝░░░╚═╝░░░╚══════╝╚══════╝  ╚═╝░░░░░╚═╝░░╚═╝░╚═════╝░╚══════╝ %
+
 \maketitle
 \begin{center}
     \includegraphics[width = 6cm, height = 1.5cm]{Assets/logos.png}
 \end{center}
 \pagebreak
+
+
+% ░█████╗░░█████╗░███╗░░██╗████████╗███████╗███╗░░██╗████████╗░██████╗ %
+% ██╔══██╗██╔══██╗████╗░██║╚══██╔══╝██╔════╝████╗░██║╚══██╔══╝██╔════╝ %
+% ██║░░╚═╝██║░░██║██╔██╗██║░░░██║░░░█████╗░░██╔██╗██║░░░██║░░░╚█████╗░ %
+% ██║░░██╗██║░░██║██║╚████║░░░██║░░░██╔══╝░░██║╚████║░░░██║░░░░╚═══██╗ %
+% ╚█████╔╝╚█████╔╝██║░╚███║░░░██║░░░███████╗██║░╚███║░░░██║░░░██████╔╝ %
+% ░╚════╝░░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═════╝░ %
+
+\tableofcontents
+\pagebreak
+
+
+% ░█████╗░░█████╗░██╗░░██╗███╗░░██╗░█████╗░░██╗░░░░░░░██╗██╗░░░░░███████╗██████╗░░██████╗░███████╗███╗░░░███╗███████╗███╗░░██╗████████╗░██████╗ %
+% ██╔══██╗██╔══██╗██║░██╔╝████╗░██║██╔══██╗░██║░░██╗░░██║██║░░░░░██╔════╝██╔══██╗██╔════╝░██╔════╝████╗░████║██╔════╝████╗░██║╚══██╔══╝██╔════╝ %
+% ███████║██║░░╚═╝█████═╝░██╔██╗██║██║░░██║░╚██╗████╗██╔╝██║░░░░░█████╗░░██║░░██║██║░░██╗░█████╗░░██╔████╔██║█████╗░░██╔██╗██║░░░██║░░░╚█████╗░ %
+% ██╔══██║██║░░██╗██╔═██╗░██║╚████║██║░░██║░░████╔═████║░██║░░░░░██╔══╝░░██║░░██║██║░░╚██╗██╔══╝░░██║╚██╔╝██║██╔══╝░░██║╚████║░░░██║░░░░╚═══██╗ %
+% ██║░░██║╚█████╔╝██║░╚██╗██║░╚███║╚█████╔╝░░╚██╔╝░╚██╔╝░███████╗███████╗██████╔╝╚██████╔╝███████╗██║░╚═╝░██║███████╗██║░╚███║░░░██║░░░██████╔╝ %
+% ╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚════╝░░░░╚═╝░░░╚═╝░░╚══════╝╚══════╝╚═════╝░░╚═════╝░╚══════╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═════╝░ %
+
+\section{Acknowledgments}
+\subsection{Ourselves}
+We all contributed to the project, notably:
+\begin{itemize}
+  \item{\textit{Preston Whiteman} - Team leader, organiser and head report writer}
+    \subitem{Wrote most of and collected the report into a \gls{LaTeX} document, designed solutions and came up with ideas, coordinated team members so that they could work together. Also planned out most of the project and designed almost all 3D \gls{CAD} models}
+  \item{\textit{Maria Lytvyn-Johannesdottir} - Head note taker}
+    \subitem{Took photos while at \gls{GE} and was the head note taker for our team. Came up with many ideas and contributed to others.}
+  \item{\textit{Catherine Murray} - Planning}
+    \subitem{}
+  \item{\textit{Corey Firkins} - Research, ideas and sketching}
+    \subitem{}
+  \item{\textit{Juljan Koleci} }
+  \item{\textit{Ahmed Wahid} }
+\end{itemize}
+
+\subsection{Others}
+We extend many thanks to:
+\begin{itemize}
+  \item{\textit{David Sellers} - Organised the project and guided us throughout, was there to help answer questions about the project and ensure we were on track}
+  \item{\textit{Mick Stevens} - Guided us, represented \gls{GE} and was there to help us with questions about the problem and \gls{GE} if needed}
+  \item{\textit{EDT Industrial Cadets}}
+  \item{\gls{GE}}
+\end{itemize}
+\pagebreak
+
+
+
+
+
+
+
+
+\printglossaries
+
 \end{document}
