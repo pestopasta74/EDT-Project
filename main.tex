@@ -15,7 +15,7 @@
 \usepackage{lscape}
 \usepackage{rotating}
 \usepackage{graphicx}
-\graphicspath{ {../Assets/} }
+\graphicspath{{Assets/}}
 
 % Other Packages
 \usepackage{todonotes}
@@ -27,69 +27,75 @@
 % Glossary
 \makeglossaries
 
+\newglossaryentry{WddnSptCages}
+{
+  name=\textit{Wooden Support Cages},
+  description={- \gls{GE}'s current solution which is made from wood and not adjustable}
+}
+
 \newglossaryentry{EDT}
 {
   name=\textit{EDT Industrial Cadets Gold},
-  description={An industry led quality benchmark for outreach and education programmes to build pathways through education and employment}
+  description={- An industry led quality benchmark for us outreach and education programmes to build pathways through education and employment}
 }
 
 \newglossaryentry{GE}
 {
   name=\textit{GE Vernova Transformers},
-  description={A part of the company General Electric, operating in Stafford}
+  description={- A part of the company General Electric, operating in Stafford}
 }
 
 \newglossaryentry{gcal}{
     name={Gcal},
-    description={A shorthand term for Google Calendar, a web-based calendar service provided by Google.}
+    description={- A shorthand term for Google Calendar, a web-based calendar service provided by Google.}
 }
 
 \newglossaryentry{reality-composer}
 {
   name=\textit{Reality Composer},
-  description={An application on iPad and iPhone for developing 3D Models typically for AR}
+  description={- An application on iPad and iPhone for developing 3D Models typically for AR}
 }
 
 \newglossaryentry{AR}
 {
   name=\textit{Augmented Reality},
-  description={A way to place objects into the real world using a device's camera and screen}
+  description={- A way to place objects into the real world using a device's camera and screen}
 }
 
 \newglossaryentry{iPad}
 {
   name=\textit{Apple iPad},
-  description={A tablet computer developed by Apple which some of us made use of during our project}
+  description={- A tablet computer developed by Apple which some of us made use of during our project}
 }
 
 \newglossaryentry{CAD}
 {
   name=\textit{Computer Aided Design},
-  description={The use of a computer to help and to aid the design of 2D and 3D models, interfaces, logos, etc}
+  description={- The use of a computer to help and to aid the design of 2D and 3D models, interfaces, logos, etc}
 }
 
 \newglossaryentry{gantt-chart}
 {
   name=\textit{Gantt Chart},
-  description={A chart created by Henry Laurence Gantt, to plan out projects at a large scale}
+  description={- A chart created by Henry Laurence Gantt, to plan out projects at a large scale}
 }
 
 \newglossaryentry{figma}
 {
   name=\textit{Figma},
-  description={An online web application for doing 2D designs}
+  description={- An online web application for doing 2D designs}
 }
 
 \newglossaryentry{LaTeX}
 {
   name=\LaTeX,
-  description={A document preparation system used for the communication and publication of scientific documents}
+  description={- A document preparation system employed to facilitate the creation and publication of scientific documents}
 }
 
 \newglossaryentry{fischer-technik}
 {
   name=\textit{Fischer Technik},
-  description={A plastic modelling set which we used to experiment with initial ideas}
+  description={- A plastic modelling set which we used to experiment with initial ideas}
 }
 
 
@@ -106,7 +112,7 @@
 
 \maketitle
 \begin{center}
-    \includegraphics[width = 6cm, height = 1.5cm]{Assets/logos.png}
+    \includegraphics[width = 6cm, height = 1.5cm]{logos.png}
 \end{center}
 \pagebreak
 
@@ -146,22 +152,70 @@ We all contributed to the project, notably:
 \end{itemize}
 
 \subsection{Others}
-We extend many thanks to:
+We express our gratitude to the following individuals and organisations:
 \begin{itemize}
-  \item{\textit{David Sellers} - Organised the project and guided us throughout, was there to help answer questions about the project and ensure we were on track}
-  \item{\textit{Mick Stevens} - Guided us, represented \gls{GE} and was there to help us with questions about the problem and \gls{GE} if needed}
+  \item{\textit{David Sellers} - For coordinating the project, providing continuous guidance, and being readily available to address any inquiries related to the project, ensuring our progress was on course.}
+  \item{\textit{Mick Stevens} - For offering guidance, representing \gls{GE}, and assisting us with any questions pertaining to the problem and \gls{GE} as required.}
   \item{\textit{EDT Industrial Cadets}}
   \item{\gls{GE}}
 \end{itemize}
 \pagebreak
 
 
+% ██╗███╗░░██╗████████╗██████╗░░█████╗░██████╗░██╗░░░██╗░█████╗░████████╗██╗░█████╗░███╗░░██╗ %
+% ██║████╗░██║╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██║░░░██║██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║ %
+% ██║██╔██╗██║░░░██║░░░██████╔╝██║░░██║██║░░██║██║░░░██║██║░░╚═╝░░░██║░░░██║██║░░██║██╔██╗██║ %
+% ██║██║╚████║░░░██║░░░██╔══██╗██║░░██║██║░░██║██║░░░██║██║░░██╗░░░██║░░░██║██║░░██║██║╚████║ %
+% ██║██║░╚███║░░░██║░░░██║░░██║╚█████╔╝██████╔╝╚██████╔╝╚█████╔╝░░░██║░░░██║╚█████╔╝██║░╚███║ %
+% ╚═╝╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═════╝░░╚═════╝░░╚════╝░░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝ %
+
+\section{Introduction}
+This report documents our accomplished results in the creation of an Adjustable Support Cage for Copper Windings designed for \gls{GE}. It serves as a comprehensive documentation of our research, design, and development process. It is important to note that this project was undertaken as part of the \gls{EDT} Award.
+
+\subsection{GE Vernova}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=6cm]{giant-transformer}
+  \caption{A giant transformer produced by \gls{GE}}
+  \label{fig:giant-transformer}
+\end{figure}
+
+\gls{GE} is a division of General Electric, operating in Stafford, specializing in the construction of massive transformers predominantly used in high voltage power grids. Our visit to \gls{GE} on November 21, 2023, proved invaluable as we gained insights into the project. The guided tour showcased the \gls{WddnSptCages}, and the company's explanations provided a solid foundation for our project goals.
+
+\subsection{The Cages}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=6cm, angle=270]{wooden-support-cage}
+  \caption{\gls{WddnSptCages}}
+  \label{fig:wooden-support-cage}
+\end{figure}
+
+We also explored the procedure of how \gls{GE} utilizes the support cages within their manufacturing process.
+
+\subsection{The Problem}
+The STEM Project for 2024 focuses on designing an Adjustable Support Cage for windings. During the winding manufacture process, coils are wound on vertical or horizontal lathes and then clamped under mechanical pressure for oven drying. In windings with a small radial depth, support cages are inserted to enhance mechanical stability, preventing collapse under heat and pressure.
+
+Currently, these support cages are customized for specific windings, with limited adjustability achieved by exchanging outer battens. Our project aims to review and redesign these cages for greater adjustability.
+
+\subsection{Project Objectives}
+\begin{itemize}
+  \item Review data on expected winding diameters (to be provided by TST).
+  \item Examine existing nonadjustable support cages.
+  \item Investigate available methods of adjustability.
+  \item Define a method and range of adjustment achievable.
+\end{itemize}
+
+\subsection{Expected Benefits}
+\begin{itemize}
+  \item Reduction in material cost for industrial engineering.
+  \item Decrease in engineering hours for industrial engineering.
+  \item Minimization of labor hours for manufacturing.
+\end{itemize}
+
+The existing cages are currently tailor-made to specific winding requirements, emphasizing the need for a more adjustable solution.
 
 
-
-
-
-
+\pagebreak
 \printglossaries
 
 \end{document}
